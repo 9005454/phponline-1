@@ -2,6 +2,10 @@
 require_once(__DIR__ . '\lib\prolog.php');
 require_once(__DIR__ . '\templates\header.php');?>
 
+
+
+
+
 <div class="inner-block">
 	<div class="clear"></div>
 	<div class="main-content">
