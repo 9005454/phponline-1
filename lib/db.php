@@ -14,6 +14,8 @@ if(!$dbConnect){
 	die;
 }
 
+mysql_query("SET CHARACTER SET utf8 ");
+
 if(!mysql_select_db($dataBase)){
   
 	echo 'Не удалось выбрать базу данных!';
