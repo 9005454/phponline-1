@@ -15,7 +15,7 @@ if(!$dbConnect){
 }
 
 if(!mysql_select_db($dataBase)){
- 
+  
 	echo 'Не удалось выбрать базу данных!';
 	die;
 }
